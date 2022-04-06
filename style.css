@@ -1,0 +1,506 @@
+@media only screen and (min-width: 992px) {
+
+    body {
+        left: 0;
+        right: auto;
+        background: #FFEFBA;
+        background: -webkit-linear-gradient(to bottom, #FFFFFF, #FFEFBA);
+        background: linear-gradient(to bottom, #FFFFFF, #FFEFBA);
+    }
+
+    .patti {
+        width: 50%;
+        height: 2px;
+        background-color: rgb(225, 0, 255);
+        border-radius: 60%;
+    }
+
+    .translucent {
+        display: inline-block;
+    }
+
+    .dp {
+        height: 250px;
+        animation: pulse 20s infinite;
+        border-radius: 30%;
+        border: 0.5px black solid;
+        margin-left: 5px;
+    }
+
+    .title {
+        float: right;
+        margin-right: 250px;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 2px;
+        font-size: 80px;
+    }
+
+    .sub-title {
+        margin-bottom: 0.5%;
+        margin-left: 50px;
+        border-left: 2px rgb(225, 0, 255) solid;
+        border-bottom: 2px rgb(225, 0, 255) solid;
+        font-family: 'Caveat', cursive;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .navbar {
+        background-color: #333;
+        overflow: hidden;
+    }
+
+    .navbar a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-left: 8%;
+    }
+
+    .navbar a:hover {
+        background-color: #FFEFBA;
+        color: black;
+    }
+
+    .about {
+        background-color: rgba(255, 99, 71, 0.138);
+        border-radius: 20%;
+        padding: 30px 30px 30px 30px;
+    }
+
+    .major-title {
+        font-family: 'Acme', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        word-spacing: 3px;
+    }
+
+    .three-words {
+        font-family: 'Satisfy', cursive;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .aboutp {
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 22px;
+        padding: 25px 25px 25px 25px;
+    }
+
+    .details {
+        display: flex;
+        text-align: center;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .sub-detail {
+        margin: 10px 10px 10px 10px;
+        padding: 20px 20px 20px 20px;
+        border: 1px black solid;
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 22px;
+    }
+
+    .edu {
+        margin-left: 20px;
+        font-family: 'Ropa Sans', sans-serif;
+    }
+
+    .dabba {
+        height: 20px;
+        width: 50%;
+        background-color: black;
+
+    }
+
+    .edu-title {
+        font-size: 18px;
+        text-decoration: underline;
+        margin-left: 20px;
+    }
+
+    .edu-org {
+        font-size: 28px;
+        margin-left: 20px;
+    }
+
+    .period {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .acmp {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .skills {
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 20px;
+        line-height: 40px;
+        margin-left: 5%;
+    }
+
+    .exp {
+        text-align: center;
+        font-size: 22px;
+        text-decoration: underline;
+    }
+
+    .workx {
+        display: flex;
+        font-family: 'Ropa Sans', sans-serif;
+    }
+
+    .workxA {
+        margin-left: 10px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .intern {
+        display: flex;
+        font-family: 'Ropa Sans', sans-serif;
+    }
+
+    .internA {
+        margin-left: 10px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .training {
+        display: flex;
+        font-family: 'Ropa Sans', sans-serif;
+        justify-content: space-around;
+    }
+
+    .trainingA {
+        margin-left: 10px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .expp {
+        font-weight: 800;
+        text-decoration: underline;
+    }
+
+    .projects {
+        font-family: 'Ropa Sans', sans-serif;
+    }
+
+    .pppp {
+        background-color: #000000;
+        color: #ddff00;
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    .android {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 50px 50px 50px;
+        padding: 20px 20px 20px 20px;
+        border: 1px black solid;
+        background: url("android.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .system {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 50px 50px 50px;
+        padding: 20px 20px 20px 20px;
+        border: 1px black solid;
+        background: url("system.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .database {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 50px 50px 50px;
+        padding: 20px 20px 20px 20px;
+        border: 1px black solid;
+        background: url("database.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .web {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 50px 50px 50px;
+        padding: 20px 20px 20px 20px;
+        border: 1px black solid;
+        background: url("web.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .software {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 50px 50px 50px;
+        padding: 20px 20px 20px 20px;
+        border: 1px black solid;
+        background: url("software.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .swot {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        background-color: #6526ac9e;
+        border-radius: 5%;
+    }
+
+    .swotA {
+        grid-area: 1 / 1 / 2 / 2;
+        background-color: #ff0000a1;
+        border-radius: 5%;
+    }
+
+    .swotB {
+        grid-area: 1 / 2 / 2 / 3;
+        background-color: #001eff79;
+        border-radius: 5%;
+    }
+
+    .swotC {
+        grid-area: 2 / 1 / 3 / 2;
+        background-color: #1aff00a1;
+        border-radius: 5%;
+    }
+
+    .swotD {
+        grid-area: 2 / 2 / 3 / 3;
+        background-color: #ff006fa1;
+        border-radius: 5%;
+    }
+
+    .swoth {
+        text-decoration: underline;
+        text-align: center;
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 25px;
+    }
+
+    .strength {
+        text-align: center;
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 18px;
+    }
+
+    .weakness {
+        text-align: center;
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 18px;
+    }
+
+    .oppurtunity {
+        text-align: center;
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 18px;
+    }
+
+    .threat {
+        text-align: center;
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 18px;
+    }
+
+    .hobbies {
+        background-color: #5ae8a5a1;
+        border: 2px red ridge;
+        margin-top: 5px;
+    }
+
+    .hobby {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hobbh {
+        text-align: center;
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+
+    .hobby li {
+        list-style: none;
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 18px;
+    }
+
+    .bottom-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+    .refrence {
+        grid-area: 1 / 1 / 2 / 2;
+        border: 1px black solid;
+    }
+
+    .blog {
+        grid-area: 2 / 1 / 3 / 2;
+        border: 1px black solid;
+    }
+
+    .social {
+        grid-area: 1 / 2 / 3 / 3;
+        border: 1px black solid;
+    }
+
+
+    .refh {
+        margin-left: 30px;
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 25px;
+        text-decoration: underline;
+        font-weight: 800;
+    }
+
+    .refp {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 18px;
+    }
+
+    .reft {
+        margin-left: 80px;
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 18px;
+    }
+
+    .blogh {
+        text-align: center;
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+
+    .blogp {
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 18px;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .blogl {
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 18px;
+    }
+
+    .socialh {
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .socialf {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 17px;
+        grid-row-gap: 18px;
+    }
+
+    .div1 {
+        grid-area: 1 / 1 / 2 / 2;
+        width: fit-content;
+        height: fit-content;
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .div2 {
+        grid-area: 1 / 2 / 2 / 3;
+        width: fit-content;
+        height: fit-content;
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .div3 {
+        grid-area: 2 / 1 / 3 / 2;
+        width: fit-content;
+        height: fit-content;
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .div4 {
+        grid-area: 2 / 2 / 3 / 3;
+        width: fit-content;
+        height: fit-content;
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .div5 {
+        grid-area: 3 / 1 / 4 / 2;
+        width: fit-content;
+        height: fit-content;
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .div6 {
+        grid-area: 3 / 2 / 4 / 3;
+        width: fit-content;
+        height: fit-content;
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .div7 {
+        grid-area: 4 / 1 / 5 / 2;
+        width: fit-content;
+        height: fit-content;
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .div8 {
+        grid-area: 4 / 2 / 5 / 3;
+        width: fit-content;
+        height: fit-content;
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .socialimg {
+        text-align: center;
+        height: 100px;
+        margin: 50%;
+    }
+
+    .footer {
+        width: 100%;
+        text-align: center;
+        top: 100%;
+        bottom: 0%;
+        color: white;
+        background-color: #000000;
+        word-spacing: 10px;
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+
+}
